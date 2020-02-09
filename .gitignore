@@ -1,2 +1,4 @@
 /env/
 /gainz_site/secret_key.py
+/test/
+/migrations/

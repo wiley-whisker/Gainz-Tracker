@@ -4,7 +4,7 @@ import os
 import sys
 
 # small penis
-# hello world
+
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'gainz_site.settings')
     try:

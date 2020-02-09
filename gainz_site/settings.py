@@ -14,6 +14,7 @@ import os
 from django.core.management.utils import get_random_secret_key
 
 
+
 def generate_secret_key(key_path: str) -> None:
     """
     Generates a new secret key file if none exists.
