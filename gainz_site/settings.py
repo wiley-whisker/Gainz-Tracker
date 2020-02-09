@@ -21,7 +21,7 @@ def generate_secret_key(key_path: str) -> None:
     :return: None
     """
     with open(key_path, 'w') as f:
-        f.write(get_random_secret_key())
+        f.write('SECRET_KEY = ' + get_random_secret_key())
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
